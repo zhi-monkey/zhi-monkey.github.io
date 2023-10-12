@@ -1,0 +1,199 @@
+/*登录*/
+
+.login .log {
+    width: 414px;
+    height: 250px;
+    background-color: white;
+    box-shadow: darkgrey 2px 3px 5px 1px;
+    margin: 70px 250px 20px 0px;
+    overflow: hidden;
+}
+
+.login .title {
+    padding-top: 15px;
+    margin-bottom: 12px;
+    font-size: 25px;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    /*居中*/
+
+}
+
+.login #form {
+    text-align: center;
+    height: 150px;
+    width: 272px;
+    margin: 0px auto;
+
+}
+
+.login #form .input {
+    height: 38px;
+    width: 268px;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-right: 0px;
+    margin-bottom: 17px;
+    border-radius: 3px;
+    border: solid rgb(214, 214, 21) 1px;
+}
+
+.login #btn {
+    border-radius: 3px;
+    height: 37px;
+    width: 258px;
+    padding: 1px 7px 2px 7px;
+    box-sizing: content-box;
+    border: none;
+    background-color: #d8dc87;
+    color: white;
+    font-size: 17px;
+}
+
+.login .left {
+    float: left;
+}
+
+.login .right {
+    float: right;
+}
+
+
+
+/*建议*/
+
+
+
+.advice .com {
+    	margin-top: 20px;
+		display: inherit;
+		height: 30px;
+		width: 150px;
+		background-color: #ce0000;
+		border: none;
+		color: white;		
+}
+
+
+/*注册*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.div2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+}
+.register .Register {
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    background:radial-gradient(#afbe94,white);
+    box-shadow: darkgrey 5px 5px 10px 3px;
+    border-radius:15px;
+ 
+    
+}
+
+.register .Register #canvas{
+   margin-top:6px;
+}
+
+.register .common {
+    width: 260px;
+    height: 35px;
+}
+
+.register .common1 {
+    width: 80px;
+    height: 35px;
+}
+
+.register .common2 {
+    width: 75px;
+    height: 40px;
+}
+
+.register .common3 {
+    width: 265px;
+    height: 30px;
+    background-color:#d8dc87;
+    text-align: center;
+    border-color: #d8dc87;
+    color: white;
+}
+
+.register .type {
+    width: 700px;
+    text-align: left;
+}
+
+.register .word {
+    color: grey;
+    font-size: 2px;
+    text-align: center;
+}
+
+.register .word1 {
+    font-size: 10px;
+    text-align: center;
+}
+
+.register .div1 {
+    height: 50px;
+    width: 1200px;
+    border-bottom: 1.5px solid grey;
+    padding-bottom: 16px;
+
+}
+
+.register .div2 {
+    background-color: rgb(255, 255, 255);
+    /* width: 1200px; */
+    text-align: center;
+    padding-top: 30px;
+    height: 520px;
+    /* padding-left: 600px; */
+}
+
+.register .container {
+    width: 1200px;
+}
+
+.register .common4 {
+    width: 75px;
+    height: 20px;
+    font-size: 3px;
+
+}
+
+.register a {
+    text-decoration: none;
+}
+
+
+.register h1 {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
+/*感谢*/
+.appreciate .p-img{
+    width:500px;
+    height: 300px;
+}
+.appreciate .item img{
+    
+    height:100%;
+    width: 100%;
+    overflow: hidden;
+}
+
