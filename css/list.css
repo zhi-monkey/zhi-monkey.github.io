@@ -1,0 +1,531 @@
+/**/
+
+
+.banner {
+	width: 100%;
+	height: 666px;
+	text-align: center;
+}
+/*设置横幅背景图*/
+.banner.chinapot {
+	background: url("../images/2.China pot/banner.jpg") no-repeat center/cover 
+}
+
+.banner.world{
+	background: url("../images/3.world/banner.jpg") no-repeat center/cover
+}
+
+.banner.joint {
+	background: url("../images/4.joint/banner.jpg") no-repeat center/cover
+}
+
+.banner.joinus{
+	background: url("../images/5.joinus/banner.jpg") no-repeat center/cover
+}
+
+
+
+.banner .shade {
+	width: 100%;
+	height: 666px;
+	background: rgba(12, 4, 1, 0.5);
+	padding-top: 320px;
+}
+
+.banner .shade h2 {
+	font-size: 48px;
+	line-height: 68px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.banner .shade h2 span {
+	display: block;
+	font-size: 20px;
+	line-height: 40px;
+	color: #CE0100;
+	text-transform: uppercase;
+}
+
+.banner .shade p {
+	font-size: 16px;
+	line-height: 35px;
+	color: #D8D4D3;
+}
+
+/**/
+.main {
+	margin-top: 40px;
+}
+
+.main .mainL {
+	float: left;
+	width: 294px;
+}
+
+.main .mainL h2 {
+	font-size: 26px;
+	line-height: 40px;
+	color: #CF0101;
+	font-weight: 700;
+}
+
+.main .mainL h2 i {
+	font-size: 26px;
+	color: #111;
+	font-weight: 700;
+}
+
+.main .mainL h2 span {
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+	color: #5C5C5C;
+	text-transform: uppercase;
+}
+
+.main .mainL a {
+	margin-top: 20px;
+	display: block;
+	width: 258px;
+	height: 42px;
+	background: #D2D2D2;
+	line-height: 42px;
+	font-size: 16px;
+	color: #2E2E2E;
+	text-align: center;
+	cursor: pointer
+}
+
+.main .mainL a.cur {
+	background: #d8dc87;
+	color: #fff;
+}
+
+.main .mainL a:hover {
+	background: #d8dc87;
+	color: #fff;
+}
+
+.main .mainR {
+	float: right;
+	width: 906px;
+	padding: 0 10px;
+}
+
+.main .mainR .title {
+	width: 100%;
+	height: 70px;
+	padding: 19px 10px;
+	border-bottom: 1px solid #B0B0B0;
+}
+
+.main .mainR .title h2 {
+	position: relative;
+	margin-left: 18px;
+	float: left;
+	font-size: 24px;
+	line-height: 30px;
+	color: #D10101;
+}
+
+.main .mainR .title h2 span {
+	margin-left: 8px;
+	font-size: 12px;
+	color: #545454;
+	text-transform: uppercase;
+}
+
+.main .mainR .title h2:before {
+	position: absolute;
+	left: -15px;
+	content: '';
+	display: inline-block;
+	width: 4px;
+	height: 32px;
+	background: #D10101;
+	margin-right: 18px;
+}
+
+.main .mainR .title p {
+	float: right;
+	line-height: 46px;
+	color: #545454;
+}
+
+.main .mainR .title p a {
+	color: #545454;
+}
+
+.main .mainR .title p a:last-child {
+	color: #CE0000;
+}
+
+.main .mainR .btn {
+	margin: 20px 0;
+	height: 35px;
+	padding: 0 30px;
+}
+
+.main .mainR .btn button {
+	display: inline-block;
+	height: 100%;
+	width: 100px;
+	border: none;
+	background: #d8dc87;
+	color: #2D2D2D;
+	cursor: pointer;
+}
+
+.main .mainR .btn a {
+	display: inline-block;
+	width: 30px;
+	height: 100%;
+	line-height: 35px;
+	background: #D2D2D2;
+	color: #2D2D2D;
+	text-align: center;
+	cursor: pointer;
+}
+
+.main .mainR .btn a.cur {
+	background: #d8dc87;
+	color: #fff;
+}
+
+
+
+
+
+
+/*东方遗珠*/
+/*文物拟人*/
+.main .mainR .policy,
+.main .mainR .opinion {
+	margin-top: 14px;
+	width: 100%;
+	padding: 0 30px;
+}
+
+.main .mainR .policy .item,
+.main .mainR .opinion .item {
+	width: 100%;
+	height:400px;
+	padding-top: 18px;
+	border-bottom: 1px dotted #B0B0B0;
+	overflow: hidden;
+}
+
+
+
+.main .mainR .policy .item:last-child,
+.main .mainR .opinion .item:last-child {
+	border-bottom: none;
+}
+
+.main .mainR .policy .item h2,
+.main .mainR .opinion .item .p-name h2 {
+	font-size: 16px;
+	line-height: 32px;
+	color: #CD0102;
+}
+
+.main .mainR .policy .item p,
+.main .mainR .opinion .item .p-name p {
+	line-height: 24px;
+	color: #323232;
+	margin-top:100px;
+}
+
+/*
+ 
+ 加了个悬停为蓝色 
+
+
+*/
+
+
+.main .mainR .opinion .item .p-name h2:hover {
+	color: blue;
+}
+
+
+
+/*文物快照*/
+.main .mainR .opinion .item .p-img {
+	float: left;
+	width: 214px;
+	height:270px;
+	border: 1px solid #DCDDE2;
+	padding: 3px;
+	overflow: hidden;
+}
+.main .mainR .opinion .item .p-img img{
+	
+	width: 100%;
+	height:100%;
+	
+}
+
+
+
+
+.main .mainR .opinion .item .p-name {
+	float:left;
+	margin-left: 26px;
+	width: 580px;
+}
+
+
+
+
+
+
+
+
+/*世界风采*/
+/*飘零的瑰宝*/
+
+#map #container{
+	width:250px;
+	height:380px;
+	border:1px solid gray;
+	margin:30px auto;
+}
+
+#map #status{
+	text-align: center;
+	font-size:0.1px;
+}
+
+#map p{
+	text-align: center;
+}
+
+.main .mainR .content .search {
+	float: right;
+	width: 516px;
+	height: 40px;
+}
+
+.main .mainR .content .search .input1 {
+	float: left;
+	display: block;
+	width: 422px;
+	height: 40px;
+	padding-left: 18px;
+	border: 1px solid #D2D2D2;
+}
+
+.main .mainR .content .search .input2 {
+	float: left;
+	width: 92px;
+	height: 100%;
+	background: #d8dc87;
+	color: black;
+	font-weight: 700;
+	line-height: 40px;
+	text-align: center;
+	border: none;
+}
+
+.main .mainR .content .region .place {
+	width: 100%;
+	height: 182px;
+	border-bottom: 1px solid #B0B0B0;
+	padding: 31px 0;
+}
+
+.main .mainR .content .region .place p {
+	margin: 8px 0;
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	color: #D32525;
+}
+
+.main .mainR .content .region .place p a {
+	display: inline-block;
+	height: 100%;
+	color: #353535;
+	padding: 0 14px;
+	line-height: 24px;
+}
+
+.main .mainR .content .region .place p a.cur {
+	background: #d8dc87;
+	color: #fff;
+}
+
+.main .mainR .content .region .place p a:hover {
+	background: #d8dc87;
+	color: #fff;
+}
+
+.main .mainR .content .region ul {
+	margin: 33px 0;
+}
+
+.main .mainR .content .region ul li {
+	width: 432px;
+	height: 310px;
+}
+
+.main .mainR .content .region ul li:nth-child(2n+1) {
+	float: left;
+}
+
+.main .mainR .content .region ul li:nth-child(2n) {
+	float: right;
+}
+
+.main .mainR .content .region ul li .p-img {
+	width: 100%;
+	height: 240px;
+	border: 1px solid #C0C1C6;
+	overflow: hidden;
+}
+.main .mainR .content .region ul li .p-img img {
+	width: 100%;
+	height: 100%;
+}
+.main .mainR .content .region ul li p {
+	line-height: 74px;
+	color: #333;
+	text-align: center;
+}
+
+.main .mainR .content .region ul li p:hover {
+	color: #D00000;
+}
+
+/*众喣飘山*/
+/*努力身影*/
+.main .mainR .content .effort {
+	width: 100%;
+	padding: 14px 8px;
+}
+
+.main .mainR .content .effort  .people {
+	width: 100%;
+	height: 44px;
+}
+
+.main .mainR .content .effort  .people a {
+	float: left;
+	margin: 2px;
+	display: block;
+	width: 170px;
+	height: 100%;
+	background: #D2D2D2;
+	line-height: 44px;
+	text-align: center;
+	font-size: 16px;
+	color: #313131;
+}
+
+.main .mainR .content .effort  .people a.cur {
+	background: #d8dc87;
+	color: #fff;
+}
+
+.main .mainR .content .effort  .people a:hover {
+	background:#d8dc87;
+	color: #fff;
+}
+
+.main .mainR .content .effort  .box .item {
+	margin-top: 26px;
+	width: 100%;
+	height: 200px;
+}
+
+.main .mainR .content .effort  .box .item {
+	margin-top: 26px;
+	width: 100%;
+	height: 300px;
+}
+
+.main .mainR .content .effort  .box .item .p-img {
+	float: left;
+	width: 372px;
+	height: 100%;
+}
+
+.main .mainR .content .effort  .box .item .p-img img{
+	
+	width: 80%;
+	height: 80%;
+}
+
+.main .mainR .content .effort  .box .item .p-name {
+	float: left;
+	padding-left: 42px;
+	width: 495px;
+	height: 100%;
+}
+
+.main .mainR .content .effort  .box .item .p-name h2 {
+	margin-top: 34px;
+	font-size: 16px;
+	line-height: 36px;
+	color: rgb(192,44,56);
+}
+
+.main .mainR .content .effort  .box .item .p-name p {
+	line-height: 24px;
+	color: #333;
+}
+
+.main .mainR .content .effort  .box .item .p-name a {
+	margin-top: 14px;
+	display: block;
+	width: 75px;
+	height: 24px;
+	border: 1px solid #aaa;
+	line-height: 22px;
+	text-align: center;
+	color: #333;
+}
+
+/*数据统计*/
+.main .mainR .content .service {
+	padding: 0 14px;
+}
+
+.main .mainR .content .service p {
+	margin-top: 16px;
+	width: 100%;
+	height: 106px;
+	padding: 16px 0;
+	font-size: 16px;
+	line-height: 36px;
+	border-bottom: 1px dashed #8B8B8B;
+	text-indent: 2em;
+	color: #4f7e57;
+	text-align: justify;
+	overflow: hidden;
+	text-align: center;
+}
+
+.main .mainR .content .service ul {
+	margin-top: 22px;
+	width: 100%;
+}
+
+.main .mainR .content .service ul li {
+	width: 100%;
+	text-align: center;
+	
+}
+
+.main .mainR .content .service ul li img{
+	position: relative;
+	top: -1px;
+	display: inline-block;
+	width: 580px;
+	height: 580px;
+	text-align: center;
+	
+}
+
